@@ -20,7 +20,7 @@ jobs:
       SERVERCHAN_API_KEY: ${{ secrets.SERVERCHAN_API_KEY }}
       CAIYUN_TOKEN: ${{ secrets.CAIYUN_TOKEN }}
       QUERY: "cs.IR"
-      LIMITS: 5
+      LIMITS: 10
 
     permissions:
       issues: write
