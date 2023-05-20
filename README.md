@@ -1,13 +1,16 @@
 # Algorithm-Practice-in-Industry
-## 来源
+## 仓库介绍
+
+**一开始这个仓库是做如下内容：**
+
 搜索、推荐、广告、用增等工业界实践文章收集（来源：知乎、Datafuntalk、技术公众号）
 
 - [搜广推大厂实践文章](https://github.com/Doragd/Algorithm-Practice-in-Industry#大厂实践文章)
 
-本文仅做资源收集，未引用具体内容，如有侵权，请联系删除。
-* 源文件：source.xlsx，可以执行自定义排序
+> 本文仅做资源收集，未引用具体内容，如有侵权，请联系删除。
+> * 源文件：source.xlsx，可以执行自定义排序
 
-除此以外，还有
+**随后扩展了以下内容：**
 
 - [搜广推Arxiv论文推送bot](https://github.com/Doragd/Algorithm-Practice-in-Industry#搜广推arxiv论文推送bot)
 
