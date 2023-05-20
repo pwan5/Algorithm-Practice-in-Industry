@@ -2,7 +2,14 @@
 ## 来源
 搜索、推荐、广告、用增等工业界实践文章收集（来源：知乎、Datafuntalk、技术公众号）
 
+- [搜广推大厂实践文章](https://github.com/Doragd/Algorithm-Practice-in-Industry#大厂实践文章)
+
+本文仅做资源收集，未引用具体内容，如有侵权，请联系删除。
+* 源文件：source.xlsx，可以执行自定义排序
+
 除此以外，还有
+
+- [搜广推Arxiv论文推送bot](https://github.com/Doragd/Algorithm-Practice-in-Industry#搜广推arxiv论文推送bot)
 
 - [搜广推顶会论文列表](https://github.com/Doragd/Algorithm-Practice-in-Industry#%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E5%88%97%E8%A1%A8)
 
@@ -11,14 +18,22 @@
 - [搜广推算法系列串讲](https://github.com/Doragd/Algorithm-Practice-in-Industry/blob/main/%E6%90%9C%E5%B9%BF%E6%8E%A8%E7%AE%97%E6%B3%95%E7%B3%BB%E5%88%97%E4%B8%B2%E8%AE%B2.md)
 
 
-本文仅做资源收集，未引用具体内容，如有侵权，请联系删除。
-* 源文件：source.xlsx，可以执行自定义排序
-* 同时还提供了搜广推顶会论文列表
-
 ## 贡献新文章
 提交issue，利用github action自动更新readme和source.xlsx内容
 
 已提供issue模板，具体内容参考issue：https://github.com/Doragd/Algorithm-Practice-in-Industry/issues/1
+
+## 搜广推Arxiv论文推送bot
+* 利用GitHub Action每天定时推送最新的cs.IR的论文 (也可以指定query)
+* 彩云小译翻译摘要，Server酱提供从服务器到微信端的推送
+* PS: 虽然论文没太大用，但是可以无聊时候刷刷，扩展下思路
+* 比如早上通勤的时候，可以刷刷推送，看看有没有有意思的论文，也不需要花太多时间，毕竟摘要都翻译好了~
+* 脚本：https://github.com/Doragd/Algorithm-Practice-in-Industry/blob/main/arxiv.py
+* workflow配置：https://github.com/Doragd/Algorithm-Practice-in-Industry/blob/main/.github/workflows/push_arxiv_daily.yml
+
+<img width="40%" height="50%" alt="image" src="https://github.com/Doragd/Algorithm-Practice-in-Industry/assets/26213546/7a4e020e-5012-4c4e-8aba-d54cb5d85f66">
+<img width="40%" height="50%" alt="image" src="https://github.com/Doragd/Algorithm-Practice-in-Industry/assets/26213546/dc3371d5-fc05-482e-a9ce-2c34636a4c4e">
+
 
 ## 顶会论文列表
 |   CIKM  |   ECIR  |   KDD  |   RECSYS  |   SIGIR  |   WSDM  |   WWW  |
