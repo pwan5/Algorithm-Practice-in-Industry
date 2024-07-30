@@ -5,14 +5,13 @@
 
 搜索、推荐、广告、用增等工业界实践文章收集（来源：知乎、Datafuntalk、技术公众号）
 
-- [搜广推大厂实践文章](https://github.com/Doragd/Algorithm-Practice-in-Industry#大厂实践文章)
-
+- [搜广推大厂实践文章](https://github.com/Doragd/Algorithm-Practice-in-Industry#%E5%A4%A7%E5%8E%82%E5%AE%9E%E8%B7%B5%E6%96%87%E7%AB%A0)
 > 本文仅做资源收集，未引用具体内容，如有侵权，请联系删除。
-> * 源文件：source.xlsx，可以执行自定义排序
+> 源文件：source.xlsx，可以执行自定义排序
 
-**随后扩展了以下内容：**
+随后扩展了以下内容：
 
-- [搜广推Arxiv论文推送bot](https://github.com/Doragd/Algorithm-Practice-in-Industry#搜广推arxiv论文推送bot)
+- [搜广推论文推送Bot](https://github.com/Doragd/Algorithm-Practice-in-Industry/tree/main#%E6%90%9C%E5%B9%BF%E6%8E%A8%E8%AE%BA%E6%96%87%E6%8E%A8%E9%80%81bot)
 
 - [搜广推顶会论文列表](https://github.com/Doragd/Algorithm-Practice-in-Industry#%E9%A1%B6%E4%BC%9A%E8%AE%BA%E6%96%87%E5%88%97%E8%A1%A8)
 
@@ -20,22 +19,28 @@
 
 - [搜广推算法系列串讲](https://github.com/Doragd/Algorithm-Practice-in-Industry/blob/main/%E6%90%9C%E5%B9%BF%E6%8E%A8%E7%AE%97%E6%B3%95%E7%B3%BB%E5%88%97%E4%B8%B2%E8%AE%B2.md)
 
-
 ## 贡献新文章
 提交issue，利用github action自动更新readme和source.xlsx内容
 
 已提供issue模板，具体内容参考issue：https://github.com/Doragd/Algorithm-Practice-in-Industry/issues/1
 
-## 搜广推Arxiv论文推送bot
-* 利用GitHub Action每天定时推送最新的cs.IR的论文 (也可以指定query)
-* 彩云小译翻译摘要，Server酱提供从服务器到微信端的推送
-* PS: 虽然论文没太大用，但是可以无聊时候刷刷，扩展下思路
-* 比如早上通勤的时候，可以刷刷推送，看看有没有有意思的论文，也不需要花太多时间，毕竟摘要都翻译好了~
-* 脚本：https://github.com/Doragd/Algorithm-Practice-in-Industry/blob/main/arxiv.py
-* workflow配置：https://github.com/Doragd/Algorithm-Practice-in-Industry/blob/main/.github/workflows/push_arxiv_daily.yml
+## 一起交流
+* 关于我：2023届毕业，之前做NLP方向，毕业后转去搜广推方向，一枚努力适应的菜鸡。目前在做召回方向。
+* 我的论文阅读笔记：https://github.com/doragd/paperreading
+* 和我交流：
 
-<img width="40%" height="50%" alt="image" src="https://github.com/Doragd/Algorithm-Practice-in-Industry/assets/26213546/7a4e020e-5012-4c4e-8aba-d54cb5d85f66">
-<img width="40%" height="50%" alt="image" src="https://github.com/Doragd/Algorithm-Practice-in-Industry/assets/26213546/dc3371d5-fc05-482e-a9ce-2c34636a4c4e">
+<img src=https://github.com/Doragd/Algorithm-Practice-in-Industry/assets/26213546/a5575665-37f9-43de-941f-5133a6114d7e height="30%" width="30%"></img>
+
+
+## 搜广推论文推送Bot
+* Arxiv论文：利用github action + 彩云小译 + 飞书机器人每天推送cs.IR和cs.CL的新论文到飞书群组中。[配置文件](https://github.com/Doragd/Algorithm-Practice-in-Industry/blob/main/.github/workflows/push_arxiv_daily.yml)
+* 顶会论文：利用github action + 彩云小译 + 飞书机器人每天推送搜广推顶会的论文到到飞书群组中。[配置文件](https://github.com/Doragd/Algorithm-Practice-in-Industry/blob/main/.github/workflows/push_conf_daily.yml)
+* PS: 虽然论文没太大用，但是可以无聊时候刷刷，扩展下思路。
+* 比如早上通勤的时候，可以刷刷推送，看看有没有有意思的论文，也不需要花太多时间，毕竟摘要都翻译好了~
+
+<img src=https://github.com/Doragd/Algorithm-Practice-in-Industry/assets/26213546/64b1361c-9b34-45ed-b74c-8d7ebac77c6b height="30%" width="30%"></img>
+<img src=https://github.com/Doragd/Algorithm-Practice-in-Industry/assets/26213546/2607bc59-2746-4b50-9864-4698235ebfd3 height="30%" width="30%"></img>
+<img src=https://github.com/Doragd/Algorithm-Practice-in-Industry/assets/26213546/f2a6c51f-484b-4488-bacd-269d81afcc32 height="30%" width="30%"></img>
 
 
 ## 顶会论文列表
@@ -52,17 +57,84 @@
 |   [2020](./papers/cikm/cikm2020.md)  |   [2020](./papers/ecir/ecir2020.md)  |   [2020](./papers/kdd/kdd2020.md)  |   [2020](./papers/recsys/recsys2020.md)  |   [2020](./papers/sigir/sigir2020.md)  |   [2020](./papers/wsdm/wsdm2020.md)  |   [2020](./papers/www/www2020.md)  |   
 |   [2021](./papers/cikm/cikm2021.md)  |   [2021](./papers/ecir/ecir2021.md)  |   [2021](./papers/kdd/kdd2021.md)  |   [2021](./papers/recsys/recsys2021.md)  |   [2021](./papers/sigir/sigir2021.md)  |   [2021](./papers/wsdm/wsdm2021.md)  |   [2021](./papers/www/www2021.md)  |   
 |   [2022](./papers/cikm/cikm2022.md)  |   [2022](./papers/ecir/ecir2022.md)  |   [2022](./papers/kdd/kdd2022.md)  |   [2022](./papers/recsys/recsys2022.md)  |   [2022](./papers/sigir/sigir2022.md)  |   [2022](./papers/wsdm/wsdm2022.md)  |   [2022](./papers/www/www2022.md)  |   
-|   2023  |   [2023](./papers/ecir/ecir2023.md)  |   2023  |   2023  |   2023  |   [2023](./papers/wsdm/wsdm2023.md)  |   [2023](./papers/www/www2023.md)  |   
+|   [2023](./papers/cikm/cikm2023.md)  |   [2023](./papers/ecir/ecir2023.md)  |   [2023](./papers/kdd/kdd2023.md)  |   [2023](./papers/recsys/recsys2023.md)  |   [2023](./papers/sigir/sigir2023.md)  |   [2023](./papers/wsdm/wsdm2023.md)  |   [2023](./papers/www/www2023.md)  |   
+|   2024  |   [2024](./papers/ecir/ecir2024.md)  |   2024  |   2024  |   2024  |   [2024](./papers/wsdm/wsdm2024.md)  |   [2024](./papers/www/www2024.md)  |   
 
 ## 大厂实践文章
 
 | 公司         | 内容                                                         | 标签          | 时间       |
 | ------------ | ------------------------------------------------------------ | ------------- | ---------- |
-| 阿里妈妈 | [AdaSparse: 自适应稀疏网络的多场景CTR预估建模](https://mp.weixin.qq.com/s/a2X08FZfMgMfzmucF0DZ_w) | 精排 | 2023-05-10 |
-| 阿里飞猪 | [因果推断技术在飞猪保险模块推荐以及可解释性应用](https://mp.weixin.qq.com/s/M9RSzYiDvJ8L2Ux2VmFFRw) | 推荐 | 2023-04-28 |
-| 微博 | [微博推荐实时大模型的技术演进](https://mp.weixin.qq.com/s/wRi0YJLpru5M1My0H2Ww0w) | 推荐 | 2023-04-24 |
-| 阿里淘系 | [淘宝内容化推荐场景下对多场景全域表征的思考与应用](https://mp.weixin.qq.com/s/e6Sqb6MAY5Bvzd7Pi8-zOg) | 推荐 | 2023-04-28 |
-| 阿里淘系 | [每日好店——店品排序探索模型升级](https://mp.weixin.qq.com/s/rdcqehk6l_GMF07YisHLFw) | 推荐 | 2023-04-24 |
+| 百度 | [多域图大模型在百度推荐系统的实践与思考](https://mp.weixin.qq.com/s/6qanJ1tfV9AJF-Qbamezww) | 图推荐 | 2024-05-09 |
+| 百度 | [百度推荐资源冷启动实践](https://mp.weixin.qq.com/s/_3CkflIJtsyndBqHhm8w3Q) | 冷启动 | 2024-05-09 |
+| 小红书 | [小红书高时效推荐系统实践：从系统提效到内容冷启动](https://www.bilibili.com/video/BV1B142167Hu) | 冷启动 | 2024-05-07 |
+| 美团 | [大众点评内容搜索算法优化的探索与实践](https://mp.weixin.qq.com/s/4gki0Ju82HnHV5Qze2faBw) | 搜索 | 2024-03-21 |
+| 美团 | [百亿大规模图在广告场景的应用](https://mp.weixin.qq.com/s/RCOcFFIYDylWg10ZG72_KA) | 图 | 2024-03-28 |
+| 360 | [360信息流推荐Mind召回](https://mp.weixin.qq.com/s/Hy9yZ8yOF2FwQ9FIn3DQTw) | 召回 | 2024-01-19 |
+| 百度 | [百度搜索Push个性化](https://mp.weixin.qq.com/s/nly7Za8Ei29lx6HBuimBTQ) | 搜索 | 2024-01-17 |
+| 小红书 | [小红书推荐用户及内容冷启动实践](https://www.bilibili.com/video/BV1fe41127m1) | 冷启动 | 2024-01-12 |
+| 百度 | [百度feed图模型演进](https://mp.weixin.qq.com/s/k78RRpvDrP3GlsdBV3B3sg) | 推荐 | 2024-01-11 |
+| 百度 | [百度推荐排序技术的思考与实践](https://mp.weixin.qq.com/s/JTNmYJNgoQr26fkT-Oy35g) | 推荐 | 2024-01-07 |
+| OPPO | [OPPO 广告召回算法实践与探索](https://mp.weixin.qq.com/s/4TtGHY3Rc9Ui_1jkOKSx5Q) | 召回 | 2023-12-30 |
+| 美团 | [美团交易视频推荐探索与实践](https://www.bilibili.com/video/BV1N64y1H7mc) | 推荐 | 2023-12-23 |
+| 美团 | [内容搜索算法优化的探索与实践](https://www.bilibili.com/video/BV1Yb4y137a3) | 搜索 | 2023-12-23 |
+| 得物 | [粗排优化探讨｜得物技术](https://mp.weixin.qq.com/s/JX8adK0y-AtsoRRxx4734Q) | 粗排 | 2023-12-20 |
+| 百度 | [百度视频推荐跨域多目标预估与融合的实践和思考](https://mp.weixin.qq.com/s/YXPmZn3ujbBavFsmnf5Vzw) | 推荐 | 2023-11-29 |
+| 腾讯 | [AI大模型「改造」QQ浏览器搜索](https://mp.weixin.qq.com/s/DSfo8AXIV_QMyBX4EOfe7A) | 搜索 | 2023-11-19 |
+| 阿里妈妈     | [HC^2：基于混合对比学习的多场景广告预估建模](https://mp.weixin.qq.com/s/8Mg3lt4t2j5dtFKCsRet4g) | 广告          | 2023-11-15 |
+| 阿里         | [融合复杂目标且支持实时调控的重排模型](https://mp.weixin.qq.com/s/kRmTthX9jLB8sHC32UJWfw) | 召回          | 2023-11-14 |
+| 网易 | [网易云音乐推荐系统的冷启动技术](https://mp.weixin.qq.com/s/EDkoe3nxvQ_24nxC8ktd7g) | 冷启动 | 2023-11-10 |
+| 华为 | [多任务和多场景在华为推荐系统中的应用](https://mp.weixin.qq.com/s/c7xO71NEE2n-RbtRKItA) | 推荐 | 2023-11-09 |
+| 阿里妈妈     | [BOMGraph：基于统一图神经网络的电商多场景召回方法](https://mp.weixin.qq.com/s/Grd0PyAYmrlvc6SQLASFrg) | 召回          | 2023-11-01 |
+| 小红书 | [小红书推荐系统创新性探索](https://www.bilibili.com/video/BV1Zz4y1P7Tx) | 冷启动 | 2023-10-31 |
+| 爱奇艺       | [爱奇艺效果广告双出价优化历程](https://mp.weixin.qq.com/s/brTPvcm6_yjwoXAme2kUdA) | 广告          | 2023-10-20 |
+| 快手 | [快手内容冷启动推荐模型实践](https://mp.weixin.qq.com/s/8MKoANEAw687FoeTasngpA) | 冷启动 | 2023-10-11 |
+| 百度         | [百度推荐排序技术的思考(提取码:r5kv)](https://pan.baidu.com/s/1kTbebwkDuZOuKS7INW1Jew) | 推荐          | 2023-08-26 |
+| 新浪         | [推荐系统大模型启发的MemoNet(提取码:ckpa)](https://pan.baidu.com/s/1iR6tdrD93o35WPKyievo7w) | CTR预估       | 2023-08-26 |
+| 网易         | [网易云音乐推荐的多模态冷启技术(提取码:x72d)](https://pan.baidu.com/s/1PnE89HVWg379ax9ewP8ydQ) | 冷启动        | 2023-08-26 |
+| 快手         | [快手内容冷启动模型实践(提取码:cjbc)](https://pan.baidu.com/s/1SbDA0t6DzevVcVEzttfydg) | 冷启动        | 2023-08-26 |
+| 百度         | [百度视频推荐跨域多目标预估与融合的实践和思考(提取码:cva3)](https://pan.baidu.com/s/1nVoJCVUQZDGxlf05zhYuhw) | 多目标        | 2023-08-26 |
+| 虎牙         | [面向直播场景的虎牙排序算法实践(提取码:yhb8)](https://pan.baidu.com/s/1iU4LNm7qFAKUtkE65hVaYg) | 排序          | 2023-08-26 |
+| 58同城       | [深度学习在互联网房产推荐场景的算法实践(提取码:wcz7)](https://pan.baidu.com/s/1LGmN8ZUajMBhnZ7vcOaRoA) | 排序          | 2023-08-26 |
+| 京东         | [图机器学习在京东视频召回中的应用(提取码:gfkx)](https://pan.baidu.com/s/1-NQEP8M4Y1GH1gzMGj7p-Q) | 召回          | 2023-08-26 |
+| 百度         | [图模型在百度推荐系统的实践与思考(提取码:huaz)](https://pan.baidu.com/s/1tzWEjphTt9EzTXqp4OfiRw) | 推荐          | 2023-08-26 |
+| 百度         | [百度新资源冷启动实践(提取码:bji6)](https://pan.baidu.com/s/12GAalYfn4TuHf-8dZ9qHLA) | 冷启动        | 2023-08-26 |
+| 蚂蚁         | [图算法在蚂蚁集团营销推荐场景的应用(提取码:xvvi)](https://pan.baidu.com/s/1AilbuaTQLtrHOegjK353_Q) | 推荐          | 2023-08-26 |
+| 百度         | [百度凤巢大模型与搜索广告满意度设计与实践](https://mp.weixin.qq.com/s/Mpi7wZlHw3eKPJzj00CPMw) | 搜索          | 2023-08-13 |
+| 美团         | [美团外卖推荐关于用户新颖体验优化的技术探索](https://mp.weixin.qq.com/s/RG_eOhxJxzdou06GfJVp3g) | 推荐          | 2023-07-20 |
+| 美团         | [美团外卖智能陪伴型导购的探索与实践](https://mp.weixin.qq.com/s/prLykt36ONu43V-twgfcOg) | Query推荐     | 2023-07-13 |
+| 京东         | [京东搜索EE链路演进](https://mp.weixin.qq.com/s/na90G1GqLoS41L_-NHpVKQ) | 搜索生态      | 2023-07-12 |
+| 阿里妈妈     | [基于特征自适应的多场景预估建模](https://mp.weixin.qq.com/s/dDHdQFBoSTxIE_M_hPSh5w) | 多场景排序    | 2023-07-05 |
+| 阿里妈妈     | [转化率预估新思路：基于历史数据复用的大促转化率精准预估](https://mp.weixin.qq.com/s/MRpoM1ucZIVdiXMcS4PiHQ) | 推荐          | 2023-06-28 |
+| 腾讯         | [对话双塔——腾讯视频中的粗排相关性模型](https://mp.weixin.qq.com/s/ETJ-lkIKcxN6zIgH8FrTjw) | 粗排相关性    | 2023-06-28 |
+| 小米电商     | [多任务学习梯度冲突在电商场景的改进](https://mp.weixin.qq.com/s/0GWkUFSC0geRZMpISx-4gg) | 多任务学习    | 2023-06-24 |
+| 阿里妈妈     | [排序和准度联合优化：一种基于混合生成/判别式建模的方案](https://mp.weixin.qq.com/s/kMEYxeUPtJIbJ-X6NgHR2A) | 排序          | 2023-06-21 |
+| 小红书       | [语义模型在小红书社区搜索的应用(提取码:xfkv)](https://pan.baidu.com/s/1xQ5lqxYb_VvLxLIzDPgMHQ) | 搜索          | 2023-06-17 |
+| 蚂蚁         | [支付宝搜索的Query理解与语义召回技术(提取码:p6gc)](https://pan.baidu.com/s/12Q_QisYd8GFq-pXX3g1x5w) | 召回          | 2023-06-17 |
+| 阿里淘系     | [Generator-Evaluator重排模型在淘宝流式场景的实践](https://mp.weixin.qq.com/s/YoQNDdsRE6LZWJXrRKubLw) | 重排          | 2023-06-09 |
+| 得物         | [得物多场景统一推荐技术演进](https://mp.weixin.qq.com/s/Aj5rY1ziLqvPnZ6zNAHvFw) | 推荐          | 2023-06-09 |
+| 阿里         | [阿里解耦域适应无偏召回模型详解](https://mp.weixin.qq.com/s/0Cbc3aAYTeFqLDutLBXJmA) | 召回          | 2023-06-04 |
+| Shopee       | [多任务学习最新进展：基于神经元级共享的   CTR、CVR 多任务联合预估方法](https://mp.weixin.qq.com/s/4PO6EK3b4VCKO0ibd76C9w) | 推荐          | 2023-05-29 |
+| 阿里妈妈     | [AdaSparse:   自适应稀疏网络的多场景CTR预估建模](https://mp.weixin.qq.com/s/a2X08FZfMgMfzmucF0DZ_w) | 精排          | 2023-05-10 |
+| 得物         | [得物App相关推荐价格体验优化](https://mp.weixin.qq.com/s/J9gEmRWsjE8eZHpHvSHOlQ) | 推荐          | 2023-05-10 |
+| 阿里淘系     | [淘宝内容化推荐场景下对多场景全域表征的思考与应用](https://mp.weixin.qq.com/s/e6Sqb6MAY5Bvzd7Pi8-zOg) | 推荐          | 2023-04-28 |
+| 阿里飞猪     | [因果推断技术在飞猪保险模块推荐以及可解释性应用](https://mp.weixin.qq.com/s/M9RSzYiDvJ8L2Ux2VmFFRw) | 推荐          | 2023-04-28 |
+| 阿里淘系     | [每日好店——店品排序探索模型升级](https://mp.weixin.qq.com/s/rdcqehk6l_GMF07YisHLFw) | 推荐          | 2023-04-24 |
+| 微博         | [微博推荐实时大模型的技术演进](https://mp.weixin.qq.com/s/wRi0YJLpru5M1My0H2Ww0w) | 推荐          | 2023-04-24 |
+| 阿里健康     | [阿里可解释性推荐算法应用](https://mp.weixin.qq.com/s/hQgsT9xpQr2Ylb6_3uwfvQ) | 推荐          | 2023-03-06 |
+| Shopee       | [Calibration4CVR：2018年关于“神经元级别共享的多任务CVR”的初探](https://mp.weixin.qq.com/s/2JFY--9xDoMF5_2YCehwkg) | 推荐          | 2023-03-05 |
+| 得物         | [得物社区推荐精排模型演进](https://mp.weixin.qq.com/s/tX8fq3Az_n5NcnPlEpzA-Q) | 推荐          | 2023-01-11 |
+| 阿里妈妈     | [阿里妈妈展示广告召回之多场景建模算法](https://mp.weixin.qq.com/s/LH4XI9DZXq77NvSvaoYfLQ) | 召回          | 2022-12-07 |
+| 美团         | [大规模异构图召回在美团到店推荐广告的应用](https://mp.weixin.qq.com/s/9HZZQCVd-bMRrR6mCanaog) | 召回          | 2022-11-24 |
+| 美团         | [美团外卖搜索基于Elasticsearch的优化实践](https://mp.weixin.qq.com/s/6k8THshasaYfSaLr58O1NA) | 搜索          | 2022-11-17 |
+| 美团         | [图技术在美团外卖下的场景化应用及探索](https://mp.weixin.qq.com/s/7bCrFHNeQ3_2kLlvzb5l3w) | 搜索          | 2022-09-08 |
+| 得物         | [得物分类TAB商品流多目标排序模型的演进](https://mp.weixin.qq.com/s/URIjMVSA4gJ6EBWk4Tp6tA) | 推荐          | 2022-07-01 |
+| 得物         | [得物多兴趣召回模型实践](https://mp.weixin.qq.com/s/oEcreSx5_XsN9x4Nkv7cOw) | 推荐          | 2022-05-18 |
+| 得物         | [得物社区推荐多目标排序初探](https://mp.weixin.qq.com/s/3_RmSyl_3wIAH3lW_XKEyA) | 推荐          | 2021-12-27 |
+| 阿里         | [CMDM：基于异构序列融合的多兴趣深度召回模型在内容平台的探索和实践](https://mp.weixin.qq.com/s/IwzizxkRQbo1Kv28wVGQag) | 召回          | 2021-12-07 |
+| 爱奇艺       | [爱奇艺搜索排序算法实践](https://mp.weixin.qq.com/s/gvFagKMgGKE2ZFic1znQWg) | 搜索          | 2021-07-30 |
+| 爱奇艺       | [多目标排序在爱奇艺短视频推荐中的应用](https://mp.weixin.qq.com/s/JOQdyQDCFStWXdxTckUa5Q) | 搜索          | 2021-06-25 |
+| 爱奇艺       | [爱奇艺短视频推荐技术中多兴趣召回技术的演变](https://mp.weixin.qq.com/s/T2G8L820haEbvXgryvEWHg) | 召回          | 2021-04-23 |
+| 爱奇艺       | [如何提升链路目标一致性？爱奇艺短视频推荐之粗排模型优化历程](https://mp.weixin.qq.com/s/LZlskUK4dmOd5fLTZIATnQ) | 粗排          | 2021-02-26 |
 | 阿里淘系     | [淘宝个性化推荐中自适应与无监督的多场景模型建模实践](https://mp.weixin.qq.com/s/KX2gmEUme4Iy1PCR9PTrYg) | 推荐          | 2023-04-10 |
 | 阿里淘系     | [每日好店——淘宝店铺推荐系统实践](https://mp.weixin.qq.com/s/DCiNgI1LL-uN4JmgQ5VSjQ) | 推荐          | 2023-04-07 |
 | 小红书       | [搜推系统召回阶段的前沿进展](https://www.bilibili.com/video/BV1Km4y167ho) | 召回          | 2023-04-03 |

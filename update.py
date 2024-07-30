@@ -24,7 +24,7 @@ def parse_issue(issue):
         raise Exception("[-] Wrong input!")
     return info
 
-def run(confs_str, start_year, filter_str=''):
+def run(confs_str, start_year, filter_str='', FILTERS=FILTERS):
 
     if filter_str:
         FILTERS += filter_str.lower().split(' ')
@@ -45,7 +45,7 @@ def run(confs_str, start_year, filter_str=''):
     )
 
     citer.run_all(
-        confs=[conf + str(start_year) for conf in confs]
+        confs=[conf + str(start_year) for conf in confs],
         mode='parallel'
     )
 
@@ -55,7 +55,7 @@ def main():
     assert len(info) == 1 # confs and year
     item = info[0]
     run(
-        confs=item['confs'], 
+        confs_str=item['confs'], 
         start_year=item['year'],
         filter_str=item['filter'],
     )
